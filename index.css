@@ -1,0 +1,53 @@
+body{
+    background-color: burlywood;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+}
+
+img#hero{
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px 0px 10px 0px;
+}
+
+h1#hero{
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav{
+    background-color: rgba(255, 235, 205, 0.479);
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+}
+
+li a{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    font-size: 20px;
+}
+
+li a:hover{
+    color: white;
+    background-color: rgb(53, 53, 53);
+    border-radius: 20%;
+}
+
+*{
+    margin: 0px;
+}
