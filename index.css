@@ -48,6 +48,13 @@ li a:hover{
     border-radius: 20%;
 }
 
+footer{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    bottom: 5px;
+}
+
 *{
     margin: 0px;
 }
