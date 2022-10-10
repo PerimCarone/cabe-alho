@@ -1,5 +1,5 @@
 body{
-    background-color: burlywood;
+    background-color:blanchedalmond
 
 }
 
@@ -7,7 +7,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: blanchedalmond;
+    background-color: burlywood
 }
 
 img#hero{
@@ -21,8 +21,19 @@ h1#hero{
     font-family: 'Roboto Mono', monospace;
 }
 
+h1#Sobre{
+    background-color: burlywood;
+    border: 10px 10px 10px 10px;
+    display: flex;
+}
+
+#textão{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
 nav{
-    background-color: rgba(255, 235, 205, 0.479);
+    background-color: blanchedalmond;
 }
 
 ul{
@@ -45,7 +56,7 @@ li a{
 li a:hover{
     color: white;
     background-color: rgb(53, 53, 53);
-    border-radius: 20%;
+    border-radius: 10%;
 }
 
 footer{
