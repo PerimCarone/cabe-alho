@@ -9,37 +9,69 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
     <title>aula-29/08/22</title>
+    <script>
+        function Evento1(){alert('Sou um Estudante do curso de Ciências da Computação(CC), viso expandir meu conhecimento na área e como foco principal gostaria de aprender a criar jogos e um dia criar um projeto do qual eu ficarei orgulhoso.')}
+    </script>
+    <script>
+        function Evento2(){alert('Possuo: 1 ano e meio como estágiário na área de TI da Assembléia Legislativa do Espírito Santo(ALES)///1 ano de Arquitetura e Urbanismo na UVV///Meio ano de Engenharia da Computação na UVV///1 ano de Engenharia de software na UNINTER///Conhecimento em Photoshop, Word, Excel e PowerPoint.')}
+    </script>
+    <script>
+        function Evento3(){alert('Trabalho com: Edição básica de fotos, primariamente NewBorn///construção de planilhas no excel///manutenção simples de computadores, tanto de hardware quanto de software.')}
+    </script>
+    <script>
+        function Evento4(){alert('E-Mail: gabrielperim0409@gmail.com///Telefone: 02799967-2332')}
+    </script>
+     <script>
+        function Evento5(){alert('Entraremos em contato!')}
+    </script>
 </head>
 <body>
     
     <header> 
         <img id="hero" src="imgs/gabriel.jpg" alt="Foto do gabriel">
         <h1 id="hero">Gabriel Perim Carreiro</h1>
+        <form>
+            <fieldset>
+            <legend>entrar em contato:</legend>
+            <p><label>E-mail <input type="email" name="email" placeholder="user@domain.com"></label></p>
+            <p><label>Telefone <input type="tel" name="fone" placeholder="(00)12345-6789"></label></p>
+            </fieldset>
+            <p><button type="submit" onclick="Evento5()">Submeter</button></p>
+            </form>
     </header>
 
     <nav>
         <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">PORTFÓLIO</a></li>
-            <li><a href="#">SERVIÇOS</a></li>
-            <li><a href="#">CONTATOS</a></li>
+            <p><button id="botao" onclick="Evento1()">SOBRE</button></p>
+            <p><button id="botao" onclick="Evento2()">PORTFÓLIO</button></p>
+            <p><button id="botao" onclick="Evento3()">SERVIÇOS</button></p>
+            <p><button id="botao" onclick="Evento4()">CONTATOS</button></p>
         </ul>
     </nav>
 
-    <h1 id="Sobre">SOBRE</h1>
-    <p id="textão">Sou um Estudante do curso de Ciências da Computação(CC), viso expandir meu conhecimento na área e como foco principal gostaria de aprender a criar jogos e um dia criar um projeto do qual eu ficarei orgulhoso.</p>
-    <p id="textão">Possuo:</p>
-    <ol>
-        <li id="textão">1 ano e meio como estágiário na área de TI da Assembléia Legislativa do Espírito Santo(ALES)</li>
-        <li id="textão">1 ano de Arquitetura e Urbanismo na UVV</li>
-        <li id="textão">Meio ano de Engenharia da Computação na UVV</li>
-        <li id="textão">1 ano de Engenharia de software na UNINTER</li>
-        <li id="textão">Conhecimento em Photoshop, Word, Excel e PowerPoint</li>
-    </ol>
+    <h1 id="Sobre">HISTÓRIA DA MINHA VIDA</h1>
+        <nav id="textao">
+            <img id="Foto3" src="imgs/Foto Gabriel3.jpg" alt="">
+            <p id="textão">Nascido em 04 de Setembro de 2000 em Vitória, junto de meu Irmão Gêmeo(eu sai primeiro), fiquei meus 2 primeiros anos como bebê por lá mesmo, até me mudar para Cachoeiro de Itapemirim, onde meu outro irmão nasceu, e ficamos por lá até 2013, quando finalmente retornamos, mas dessa vez para Vila-Velha, onde moro até hoje.</p>
+        </nav>
+        <nav id="textao">
+            <p id="textão">Completei meu ensino fundamentel e médio no Colégio São José e de lá tentei meu primeiro ENEM, que infelizmente não me saitão bem quanto desejava, então passei o ano seguinte fazendo pré-vest no UP, tentando novamente no final do ano. Dessa vez consegui, finalmente, tirar uma boa nota, suficiente para entrar na UVV no curso de Arquitetura e Urbanismo, assim começando minha jornada de universitário.</p>
+            <img id="Foto2" src="imgs/Foto Gabriel2.jpg" alt="">
+        </nav>
+        <nav id="textao">
+            <img id="Foto4" src="imgs/Foto Gabriel4.jpeg" alt="">
+            <p id="textão">Após 1 ano de Estudo percebi que Arquitetura não era para mim e decidi trocar de curso, transferindo para Engenharia da Computação, onde fiquei cerca de meio ano em EAD, tendo que trancar por conta de um certo... imprevisto de escala global. Na segunda metade do ano comecei meu estágio na ALES na área de TI da Assembléia, coincidindo com o trancamento do curso na UVV e minha inscrição em um curso de Engenharia de Software na UNINTER para poder permanecer no estágio.</p>
+        </nav>
+        <nav id="textao">
+            <p id="textão">Depois de 1 ano e meio de estágio, quando a pandemia estava se acalmando e o mundo estava voltando ao normal, decidi voltar a estudar. Cancelei meu contrato e voltei para o UP, fazendo pré-vest para medicina, pois eu acreditava que o que eu mais queria era dinheiro. depois de 2~3 meses meus pais decidiram que seria melhor eu começar a frequentar uma psicóloga para me ajudar a entender não só me entender, mas o que eu gostaria de fazer com a minha vida. Depois de 2 meses de auto-reflexão e auto-entendimento eu finalmente percebi que, mesmo que eu ainda queira ter um futuro finaceiramente confortável para mim e minha família, medicina não seria o caminho para mim, entao decidi retornar para a UVV, dessa vez no curso de Ciências da Computação para fazer o que eu sempre sonhei em fazer: desenvolver jogos.</p>
+            <img id="Foto1" src="imgs/Foto Gabriel1.jpg" alt="">
+        </nav>
+
 
     <footer>
         <h6>Desenvolvido por Gabriel</h6>
     </footer>
+    </nav>
 
 
 </body>
