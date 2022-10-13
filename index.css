@@ -25,11 +25,45 @@ h1#Sobre{
     background-color: burlywood;
     border: 10px 10px 10px 10px;
     display: flex;
+    align-items: center;
+}
+
+img#Foto1{
+    width: 300px;
+    margin: 10px 10px 10px 10px;
+}
+
+img#Foto2{
+    width: 300px;
+    margin: 10px 10px 10px 10px;
+}
+
+img#Foto3{
+    width: 300px;
+    margin: 10px 10px 10px 10px;
+}
+
+img#Foto4{
+    height: 300px;
+    margin: 10px 10px 10px 10px;
 }
 
 #textão{
-    font-size: 15px;
+    font-size: 20px;
     font-family: sans-serif;
+    margin: 10px;
+    background-color: burlywood;
+}
+
+nav#textao{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:
+}
+
+body#Redirect{
+    background-color: burlywood;
 }
 
 nav{
@@ -59,11 +93,25 @@ li a:hover{
     border-radius: 10%;
 }
 
+button#botao:hover{
+    color: yellow;
+    background-color: rgb(53, 53, 53);
+    border-radius: 10%;
+}
+
 footer{
     width: 100%;
     position: fixed;
     text-align: center;
     bottom: 5px;
+}
+
+button#botao{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    font-size: 20px;
 }
 
 *{
